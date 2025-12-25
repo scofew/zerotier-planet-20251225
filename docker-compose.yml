@@ -11,7 +11,7 @@ services:
             - MYADDR=1.1.1.1 #改成自己的服务器公网IP
             - HTTP_PORT=4000
             - HTTP_ALL_INTERFACES=yes
-            - ZTNCUI_PASSWD=mrdoc.fun
+            - ZTNCUI_PASSWD=admin
         ports:
             - '4000:4000' # web控制台入口
             - '9993:9993'
